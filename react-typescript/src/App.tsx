@@ -7,6 +7,7 @@ import HeaderNode from './Components/HeaderNode';
 import ButtonComp from './Components/ButtonComp';
 import InputComp from './Components/InputComp';
 import StyleComp from './Components/StyleComp';
+import Person from './Components/Person';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <ButtonComp handleBtnClick={handleBtnClick} />
       <InputComp handleInpChange={handleInpChange} />
       <StyleComp style = {{border : '1px solid violet', fontFamily : 'revert', fontSize : '36px', textAlign : 'center'}} />
+      <Person fname = 'Abhishek' lname = 'Choudhari' />
     </div>
   );
 }
