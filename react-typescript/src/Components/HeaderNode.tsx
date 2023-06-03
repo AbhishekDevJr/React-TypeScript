@@ -7,7 +7,7 @@ type HeaderNodePorps = {
 function HeaderNode(props : HeaderNodePorps) {
   return (
     <div className = "container-header-node">
-        <h1>{props.children}</h1>
+        {props.children}
     </div>
   )
 }
