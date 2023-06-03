@@ -8,6 +8,8 @@ import ButtonComp from './Components/ButtonComp';
 import InputComp from './Components/InputComp';
 import StyleComp from './Components/StyleComp';
 import Person from './Components/Person';
+import UserComp from './Components/UserComp';
+import CounterComp from './Components/CounterComp';
 
 function App() {
 
@@ -29,6 +31,8 @@ function App() {
       <InputComp handleInpChange={handleInpChange} />
       <StyleComp style = {{border : '1px solid violet', fontFamily : 'revert', fontSize : '36px', textAlign : 'center'}} />
       <Person fname = 'Abhishek' lname = 'Choudhari' />
+      <UserComp />
+      <CounterComp />
     </div>
   );
 }

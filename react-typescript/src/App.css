@@ -29,3 +29,9 @@ h2{
     font-family: revert;
     font-weight: 500;
 }
+
+p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
